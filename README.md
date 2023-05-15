@@ -30,7 +30,6 @@
 - **Authentication and authorization**: using [passport](http://www.passportjs.org)
 - **Validation**: request data validation using [Joi](https://github.com/hapijs/joi)
 - **Logging**: using [winston](https://github.com/winstonjs/winston) and [morgan](https://github.com/expressjs/morgan)
-- **Testing**: unit and integration tests using [Jest](https://jestjs.io)
 - **Error handling**: centralized error handling mechanism
 - **API documentation**: with [swagger-jsdoc](https://github.com/Surnet/swagger-jsdoc) and [swagger-ui-express](https://github.com/scottie1984/swagger-ui-express)
 - **Process management**: advanced production process management using [PM2](https://pm2.keymetrics.io)
@@ -443,5 +442,7 @@ Contributions are more than welcome! Please check out the [contributing guide](C
 ## License
 
 [MIT](LICENSE)
+
 # delivery-management-service
+
 # delivery-management-service
