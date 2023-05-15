@@ -59,9 +59,7 @@ export const deleteRider = catchAsync(async (req: Request, res: Response) => {
 
 export const getNearByRiders = catchAsync(
   async (req: Request, res: Response) => {
-    console.log(req.body.point);
     const riders = await getRidersWithinRadius(req.body.point);
-
     if (!riders) {
       throw new ApiError(httpStatus.NOT_FOUND, "No riders found!");
     }

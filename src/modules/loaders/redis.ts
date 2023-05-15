@@ -49,7 +49,7 @@ export async function getRidersWithinRadius(point: {
   longitude: number;
 }): Promise<string[]> {
   connectRedis();
-  const radius = 10000; // meters
+  const radius = 2000; // meters
   try {
     const nearbyRiders = client.geoRadius("riders", point, radius, "m");
     return nearbyRiders;
